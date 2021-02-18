@@ -50,6 +50,7 @@ Or create a config file by writing these lines into the composer.json file , The
 <p style="color:#3e7c98">
 composer dump-autoload
 </p>
+
 ```json
 {
     
