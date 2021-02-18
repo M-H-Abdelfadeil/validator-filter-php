@@ -99,18 +99,21 @@ trait Database{
     private function chk_found_column($column,$table){
         $stm="SELECT * FROM $table LIMIT 1";
         $columns=$this->chk_found_data($stm);
-        $columns=array_keys($columns[0]);
-        $found=false;
-        foreach($columns as $c){
-            if($c==$column){
-                $found=true;
+        if($columns){
+            $columns=array_keys($columns[0]);
+            $found=false;
+            foreach($columns as $c){
+                if($c==$column){
+                    $found=true;
+                }
+            }
+            if(!$found){
+                $msg="The coulumn   ' " . $column . " ' Not found in table ' " . $table . " ' ";
+                include 'error.php';
+                exit();
             }
         }
-        if(!$found){
-            $msg="The coulumn   ' " . $column . " ' Not found in table ' " . $table . " ' ";
-            include 'error.php';
-            exit();
-        }
+        
     }
     
 
