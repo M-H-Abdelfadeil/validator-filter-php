@@ -1,0 +1,20 @@
+{
+    "name": "mahmoud-abdelfadeil/validator-filter-php",
+    "description": "package to facilitate validation and filtering in PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "M-H-Abdelfadeil",
+            "email": "mahmoudhasan509@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ValidatorFilterPHP\\":"src"
+        }
+        
+    }
+}
