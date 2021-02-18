@@ -1,5 +1,5 @@
 # Validator And Filter PHP
-
+##Created By : Mahmoud Abdelfadeil
 ### [install](#installation)
 ### [Confige File](#ConfigeFile)
 ### [Validator](#Validate)
@@ -35,21 +35,22 @@
 ## installation
 
 <br>
-1- composer requier  mahmoud.abdelfadeil/validator-filter-php
+1- composer require mahmoud-abdelfadeil/validator-filter-php
 <br>
 
 
 
 ## ConfigeFile
 create config file  Through the following command : <br>
-<p style="color:#3e7c98">
+<span style="color:blue">
 php vendor/mahmoud-abdelfadeil/validator-filter-php/src/Validator/create-file-config.php
-</p>
+</span>
 
 Or create a config file by writing these lines into the composer.json file , Then command
-<p style="color:#3e7c98">
+<span style="color:blue">
 composer dump-autoload
-</p>
+</span>
+
 ```json
 {
     
@@ -281,7 +282,7 @@ echo $str_filter ;
 // output  = mahmoud abdelfadeil
 ```
 
-##functions 
+## functions 
 
 #### string
 
