@@ -1,8 +1,8 @@
-#Validator And Filter PHP
+# Validator And Filter PHP
 
-### [install](#Install)
+### [install](#installation)
 ### [Confige File](#ConfigeFile)
-### [Validator](#Validator)
+### [Validator](#Validate)
 
 [ - Syntax](#Syntax)<br>
 [ - NotesSyntax](#NotesSyntax)<br>
@@ -32,7 +32,7 @@
 [-special_char](#special_char)<br>
 
 
-## Install
+## installation
 
 <br>
 1- composer requier  mahmoud.abdelfadeil/validator-filter-php
@@ -84,7 +84,8 @@ return [
 It is a settings file that makes settings for Database and language settings
 
 
-## Validator 
+## Validate 
+<br>
 
 It is intended to verify the value <br>
 
