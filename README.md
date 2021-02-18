@@ -35,7 +35,7 @@
 ## installation
 
 <br>
-1- composer requier  mahmoud.abdelfadeil/validator-filter-php
+1- composer require mahmoud-abdelfadeil/validator-filter-php
 <br>
 
 
