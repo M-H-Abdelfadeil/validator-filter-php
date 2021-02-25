@@ -1,4 +1,5 @@
 # Validator And Filter PHP
+**package to facilitate validation and filtering in PHP**
 #### Created By : Mahmoud Abdelfadeil
 ### [install](#installation)
 ### [Confige File](#ConfigeFile)
